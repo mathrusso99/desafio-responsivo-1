@@ -1,0 +1,128 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-all {
+    width: 100vw;
+    height: 100vh;
+}
+
+.link-header {
+    letter-spacing: 0.875px;
+    font-size: 14px;
+    color: #17233D;
+    width: 83px;
+    padding-right: 36px;
+}
+
+header {
+    margin: 32px 0 0 42px;
+}
+
+.button-header {
+    width: 120px;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+img {
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left: 6%;
+}
+
+.container-main {
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+h1 {
+    width: 582px;
+    color: #161A49;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+}
+
+p {
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    color: #4B505A;
+    width: 493px;
+}
+
+.link-main {
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #6FBF44;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+
+    .container-main {
+        display: inline-block;
+        position: static;
+        margin: 130px 55px 0 55px;
+        padding: 0;
+    }
+
+    header{
+        margin: 0;
+    }
+
+    img {
+        display: inline-block;
+        width: 312px;
+        height: 288px;
+        top: 60%;
+        left: 12%;
+        max-width: 75%;
+    }
+
+    h1 {
+        width: auto;
+        letter-spacing: 0.596px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    p {
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        font-size: 18px;
+        text-align: center;
+        width: auto;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .link-main {
+        letter-spacing: 1px;
+        font-size: 18px;
+        text-align: center;
+        padding-left: 100px;
+    }
+
+    .button-header{
+        margin: 15px;
+    }
+
+}
