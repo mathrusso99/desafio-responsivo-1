@@ -99,12 +99,10 @@ p {
     }
 
     img {
-        display: inline-block;
-        width: 312px;
-        height: 288px;
+        display: block;
         top: 60%;
         left: 12%;
-        max-width: 75%;
+        max-width: 80%;
     }
 
     h1 {
